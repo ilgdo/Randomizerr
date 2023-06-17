@@ -145,6 +145,7 @@ def OrbClick():
     textEntryOrb = Entry(frameOrb, bg='white', font='Courier 10')
     textEntryOrb.place(relheight=0.15, relwidth=1, rely=0.6, relx=0)
 
+
 btn = Button(frame, bg='white', text='Сгенерировать', font='Courier 15', command=btn_click)
 btn.place(rely=0.7, relx=0, relheight=0.3, relwidth=1)
 
